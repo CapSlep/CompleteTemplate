@@ -1,0 +1,273 @@
+{
+  "countryCode": "gb",
+  "lang": "en-GB",
+  "locale": "lang",
+  "sizes": {
+    "enabled": false,
+    "selectText": "Size: ",
+    "arr": [
+      "XS",
+      "S",
+      "M",
+      "M/L",
+      "L",
+      "L/XL",
+      "XL",
+      "XXL"
+    ]
+  },
+  "mainProduct": {
+    "header": "",
+    "name": "",
+    "oldPrice": "",
+    "newPrice": "",
+    "selectText": "",
+    "coupon": "",
+    "text": " Congratulations! <br> <br> You participated in the Stanley promotion: you have the opportunity to buy the Stanley Quencher H2.0 Tumbler with Ice Mold for only <b>£37</b>!"
+  },
+  "notifications": [
+    {
+      "user": "Manuel S*****",
+      "location": "Barcelona, Spain",
+      "action": "Just received the jewellery for 1.95 euros!",
+      "timeago": "15 seconds ago"
+    },
+    {
+      "user": "Carlos B******",
+      "location": "Madrid, Spain",
+      "action": "Just received the jewellery for 1.95 euros!",
+      "timeago": "25 seconds ago"
+    }
+  ],
+  "reviewsArr": [
+    {
+      "name": "Matthew",
+      "time": "One day ago",
+      "header": "This is incredible!",
+      "product": "26468782",
+      "review": "As a football fan for many years, I was very surprised by the quality of the Spanish national team jersey at such a reasonable price 😊",
+      "rating": 100
+    },
+    {
+      "name": "Luke",
+      "time": "Two days ago",
+      "header": "Fantastic! I have no words.",
+      "product": "26468789",
+      "review": "I decided to buy the Spanish national team jersey for the first time and now I enjoy it every time I support my team, thank you.",
+      "rating": 100
+    },
+    {
+      "name": "Valentina",
+      "time": "Two days ago",
+      "header": "Simply great.",
+      "product": "26468785",
+      "review": "The quality of the jersey is amazing, and the size is perfect! Thank you, I will recommend it to my friends.",
+      "rating": 100
+    },
+    {
+      "name": "James",
+      "time": "Four days ago",
+      "header": "I like it",
+      "review": "Honestly, I love watching football, and the new Spanish national team jersey was exactly what I needed.",
+      "rating": 100
+    },
+    {
+      "name": "Martina",
+      "time": "Seven days ago",
+      "header": "Wow, I absolutely love this product!",
+      "product": "26468784",
+      "review": "At first, I thought the jersey was expensive, but fortunately, I bought it and now I enjoy the best matches with it. Thank you!",
+      "rating": 100
+    }
+  ],
+  "reviews": {
+    "reviews": "",
+    "rr": "REVIEWS AND RATINGS",
+    "percent": "99%",
+    "rec": "comments on this promotion"
+  },
+  "questions": {
+    "_of": "Question {1} of {2}: ",
+    "arr": [
+      {
+        "q": "Have you ever ordered products from McDonald's?",
+        "a": [
+          "Yes, I order frequently",
+          "Yes, I order rarely",
+          "I have never ordered"
+        ]
+      },
+      {
+        "q": "Should McDonald's continue with this type of advertising campaigns?",
+        "a": [
+          "Yes, of course!",
+          "Yes, but change the promotional menu",
+          "No"
+        ]
+      },
+      {
+        "q": "Would you recommend our products to your friends?",
+        "a": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  "check": {
+    "title": "Your answer will be reviewed",
+    "arr": [
+      "You have answered question 3 of 3",
+      "Your IP address shows no previous orders",
+      "Your answer has been verified"
+    ]
+  },
+  "modals": {
+    "welcome": {
+      "texts": {
+        "header": "Thank you for participating in the survey!",
+        "button": "Try your luck",
+        "text": "<center> To get the McDonald's menu at a promotional price, you need to choose the correct gift box. <br><br> You have 3 attempts, good luck! </center>"
+      }
+    },
+    "first": {
+      "texts": {
+        "header": "Oh, no...",
+        "button": "Try again",
+        "text": "<center> Unfortunately, this gift is empty. You have two more attempts, good luck! </center>"
+      }
+    },
+    "win": {
+      "texts": {
+        "header": "Adidas England Home Shirt 24",
+        "button": "Get the coupon",
+        "text": "<center> <p style=\"color: #ffffff\"></p> <br> Click \"Get the coupon\", fill out the form, and pay for the order. <br><br> Receive a text message with the coupon and instructions on how to activate it. <br><br> The coupon can be activated at any time and requires no additional payment. </center>"
+      }
+    }
+  },
+  "cartSteps": {
+    "personal": {
+      "title": "Personal Information",
+      "fields": {
+        "name": {
+          "enabled": true,
+          "field": "Name"
+        },
+        "family": {
+          "enabled": true,
+          "field": "Surname"
+        },
+        "phone": {
+          "enabled": true,
+          "field": "Phone number"
+        },
+        "email": {
+          "enabled": true,
+          "field": "Email"
+        }
+      }
+    },
+    "delivery": {
+      "title": "Delivery",
+      "fields": {
+        "city": {
+          "enabled": true,
+          "field": "City"
+        },
+        "address": {
+          "enabled": true,
+          "field": "Delivery address"
+        },
+        "zip": {
+          "enabled": true,
+          "field": "Postcode"
+        }
+      }
+    },
+    "payment": {
+      "title": "Payment Methods",
+      "creditCard": "Online payment with credit card"
+    }
+  },
+  "cart": {
+    "steps": "",
+    "main": {
+      "title": "Order Details",
+      "oldPrice": "£84.99",
+      "newPrice": "£8.50",
+      "size": "Size",
+      "subTotal": {
+        "title": "Subtotal",
+        "amount": "£8.50"
+      },
+      "delivery": {
+        "title": "Delivery",
+        "amount": "£0.00"
+      },
+      "total": {
+        "title": "Total",
+        "amount": "£8.50"
+      },
+      "checkoutButton": "Pay for your order"
+    }
+  },
+  "products": [
+    {
+      "id": "26468781",
+      "name": "Adidas England Home Shirt 24 _1_",
+      "miniImg": "./img/products/slide1.png",
+      "images": [
+        "./img/products/slide1.png"
+      ]
+    },
+    {
+      "id": "26468782",
+      "name": "Adidas England Home Shirt 24 _2_",
+      "miniImg": "./img/products/slide2.png",
+      "images": [
+        "./img/products/slide2.png"
+      ]
+    },
+    {
+      "id": "26468783",
+      "name": "Adidas England Home Shirt 24 _3_",
+      "miniImg": "./img/products/slide3.png",
+      "images": [
+        "./img/products/slide3.png"
+      ]
+    }
+  ],
+  "footer": {
+    "cr": "© 2024, UEFA . All rights reserved."
+  },
+  "wheelDescription": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, doloremque. Voluptatem, veritatis velit cupiditate saepe aperiam nulla repellendus recusandae natus labore, veniam suscipit harum expedita consequuntur enim aliquam in? Quo?",
+  "imagesPath": {
+    "headerPath": "./img/header/header.svg",
+    "faviconPath": "./img/header/favicon.png",
+    "wheelImages": {
+      "wheelButtonBg": "./img/wheel/wheel-button-bg.png",
+      "wheelButtonGlow": "./img/wheel/wheel-button-glow.png",
+      "wheelHolder": "./img/wheel/wheel-holder.png",
+      "wheelLampsActive": "./img/wheel/wheel-lamps-active.png",
+      "wheelWhite": "./img/wheel/wheel-white.png",
+      "winFrame": "./img/wheel/win-frame.png"
+    },
+    "pathImgBox": {
+      "lid": "./img/box-lid.png",
+      "lidIOs": "./img/box-lid-ios.png",
+      "inner": "./img/box-inner.png",
+      "innerGift": "./img/box-inner-gift.png",
+      "box": "./img/box.png",
+      "boxModal": "./img/box-modal.png"
+    },
+    "ratingImg": {
+      "activeStart": "./img/ratings/star-acive.png",
+      "inactiveStart": "./img/ratings/star.png"
+    }
+  },
+  "modalTypes": {
+    "none": "none",
+    "win": "win",
+    "lose": "lose"
+  }
+}
