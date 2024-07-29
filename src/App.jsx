@@ -1,4 +1,5 @@
 import Wheel from "./modules/hero/Wheel.jsx";
+import Rating from "./modules/subhero/Rating.jsx";
 import Modal from "./modules/modals/Modal.jsx";
 import { useData } from "./DataContext"; // Import the custom hook
 
@@ -54,6 +55,7 @@ function MainPage({ data }) {
                 showProduct={modalProduct}
             />
             <Wheel wheelSpinCallback={wheelSpinCallback} />
+            <Rating />
         </section>
     );
 }

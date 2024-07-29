@@ -44,7 +44,8 @@
       "name": "Matthew",
       "time": "One day ago",
       "header": "This is incredible!",
-      "product": "26468782",
+      "product": "26468781",
+      "image": "./img/products/slide1.png",
       "review": "As a football fan for many years, I was very surprised by the quality of the Spanish national team jersey at such a reasonable price 😊",
       "rating": 100
     },
@@ -52,40 +53,71 @@
       "name": "Luke",
       "time": "Two days ago",
       "header": "Fantastic! I have no words.",
-      "product": "26468789",
+      "product": "26468782",
+      "image": "./img/products/slide1.png",
       "review": "I decided to buy the Spanish national team jersey for the first time and now I enjoy it every time I support my team, thank you.",
-      "rating": 100
+      "rating": 90
     },
     {
       "name": "Valentina",
       "time": "Two days ago",
       "header": "Simply great.",
-      "product": "26468785",
+      "product": "26468783",
+      "image": "./img/products/slide1.png",
       "review": "The quality of the jersey is amazing, and the size is perfect! Thank you, I will recommend it to my friends.",
-      "rating": 100
+      "rating": 80
     },
     {
       "name": "James",
       "time": "Four days ago",
       "header": "I like it",
+      "product": "26468784",
+      "image": "./img/products/slide1.png",
       "review": "Honestly, I love watching football, and the new Spanish national team jersey was exactly what I needed.",
-      "rating": 100
+      "rating": 70
     },
     {
       "name": "Martina",
       "time": "Seven days ago",
       "header": "Wow, I absolutely love this product!",
-      "product": "26468784",
+      "product": "26468785",
       "review": "At first, I thought the jersey was expensive, but fortunately, I bought it and now I enjoy the best matches with it. Thank you!",
-      "rating": 100
+      "rating": 60
     }
   ],
   "reviews": {
     "reviews": "",
-    "rr": "REVIEWS AND RATINGS",
-    "percent": "99%",
-    "rec": "comments on this promotion"
+    "title": "REVIEWS AND RATINGS",
+    "description": "Comments on this promotion",
+    "percent": 99,
+    "rating": "5.0"
   },
+  "faqs": [
+    {
+      "question": "How long will I wait for my prize?",
+      "answer": "It usually takes 5-7 working days."
+    },
+    {
+      "question": "Are there any hidden costs?",
+      "answer": "Absolutely not. Once you have won your prize and entered your details, we will take care of the rest. Shipping costs are our responsibility!"
+    },
+    {
+      "question": "I'm a winner, why should I answer the questions/guess the box?",
+      "answer": "You're not a winner yet, but you were one of the 10 people selected to try to win our prize..."
+    },
+    {
+      "question": "How can I get a prize if I win?",
+      "answer": "First, you need to enter your shipping address and contact details, then our system will direct you. Then you have to prove that you are not a robot, as the prize is only offered to real people."
+    },
+    {
+      "question": "Why should I pay £1.95 for a prize?",
+      "answer": "£1.95 is not a price - it is an upfront payment to prove that you are indeed human. All payments will be refunded once approved."
+    },
+    {
+      "question": "Can't use my credit card, transaction failed?",
+      "answer": "If you can't use your credit card, your bank is blocking the transaction: you need to check your bank account."
+    }
+  ],
   "questions": {
     "_of": "Question {1} of {2}: ",
     "arr": [

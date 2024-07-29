@@ -162,6 +162,18 @@ body.lock {
 
 /* ============================================================ END BASE STYLE EDIT BLOCK ============================================================ */
 
+/* ============================================================ HELPERS STYLE BLOCK ============================================================ */
+
+.mt-2 {
+    margin-top: 0.5rem !important;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem !important;
+}
+
+/* ============================================================ END HELPERS STYLE BLOCK ============================================================ */
+
 /* ============================================================ MAIN SETTINGS BLOCK ============================================================ */
 
 [class*="__container"] {
@@ -644,6 +656,191 @@ body.lock {
 }
 
 /* ============================================================ END MODAL BLOCK ============================================================ */
+
+/* ============================================================ RATINGS BLOCK ============================================================ */
+
+.ratingbox {
+    align-content: stretch;
+    align-items: stretch;
+    background-color: #f5f5f6;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 0.667rem;
+    margin-top: 2rem;
+    padding: 3rem;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.rating {
+    align-self: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0;
+    max-width: none;
+    padding: 0;
+}
+
+.rat {
+    align-self: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0;
+    max-width: none;
+    padding: 0;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h2rat {
+    -webkit-font-smoothing: antialiased;
+    font-size: 0.889rem;
+    font-weight: 900;
+    letter-spacing: 0.16em;
+    line-height: 16px;
+    margin-bottom: 0.667rem;
+    text-transform: uppercase;
+    color: inherit;
+    text-rendering: optimizelegibility;
+    white-space: normal;
+}
+
+.percentrat {
+    font-size: 3.247rem;
+    font-weight: 200;
+    letter-spacing: 0.04em;
+    line-height: 48px;
+}
+
+.recrat {
+    -webkit-font-smoothing: antialiased;
+    color: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    line-height: 20px;
+    text-rendering: optimizelegibility;
+    white-space: normal;
+}
+
+.starbox {
+    align-self: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0;
+    max-width: none;
+    padding: 0;
+    align-items: center;
+}
+
+.stars {
+    display: inline-block;
+    height: 15.600000000000001px;
+    position: relative;
+    width: 91px;
+}
+
+.starsss {
+    display: inline-flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.star {
+    height: 17px;
+    line-height: 17px;
+    transform: rotate(0);
+    width: 16.12px;
+}
+
+.starstext {
+    -webkit-font-smoothing: antialiased;
+    color: inherit;
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    line-height: 20px;
+    margin-left: 0.334rem;
+    text-rendering: optimizelegibility;
+    white-space: normal;
+}
+
+.rating__header {
+    padding-bottom: 0.5rem;
+    align-items: center;
+    display: flex;
+}
+
+.rating__inactive-stars {
+    width: 73px;
+    float: left;
+    height: 14px;
+    background: url(../img/ratings/star.png) repeat-x;
+    background-size: 14.5px 14px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.rating__active-stars {
+    width: 100%;
+    float: left;
+    height: 14px;
+    background: url(../img/ratings/star-acive.png) repeat-x;
+    background-size: 14.5px 14px;
+}
+
+.reviews {
+    border-top: 1px solid #e8e3df;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.review {
+    border-bottom: 1px solid #e8e3df;
+    width: 100%;
+    padding-bottom: 0.75rem !important;
+    padding-top: 0.75rem !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+}
+
+.review-username {
+    margin-left: 0.5rem;
+}
+
+.review-username:after {
+    content: "\2022";
+    padding: 0 0.3125rem;
+}
+
+.review__image {
+    max-height: 200px;
+}
+
+.review__bought-product {
+    padding: 0.667rem;
+    background: rgb(247, 247, 248);
+    margin: 0.667rem 0px;
+    display: flex;
+    align-items: center;
+}
+
+.review__bought-product img {
+    width: 1.667rem;
+    height: 1.667rem;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+
+/* ============================================================ END RATINGS BLOCK ============================================================ */
 
 /* ============================================================ MEDIA QUERY BLOCK ============================================================ */
 
