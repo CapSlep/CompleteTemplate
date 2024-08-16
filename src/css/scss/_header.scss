@@ -1,0 +1,25 @@
+/* ============================================================ HEADER BLOCK ============================================================ */
+
+.header {
+    border-bottom: 2px solid #e9e9e9;
+}
+
+.header-logo {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    background-color: #001b59;
+}
+
+.header__logo svg {
+    color: #105a33;
+    fill: #e72734;
+    height: 43px;
+}
+
+.header-logo img {
+    height: 35px;
+    padding-left: auto;
+    padding-right: auto;
+}

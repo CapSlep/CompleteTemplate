@@ -62,11 +62,6 @@ function ModalWin({ winProduct, handleModalClick }) {
             <button
                 className="button modal__button modal__button-ok"
                 aria-label="Get the coupon"
-                style={{
-                    display: "inline-block",
-                    background: "rgb(0, 27, 89)",
-                    color: "white",
-                }}
                 onClick={handleModalClick}
             >
                 GET THE COUPON

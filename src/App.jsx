@@ -29,6 +29,8 @@ function MainPage({ data }) {
     const [modalType, setModalType] = useState(data.modalTypes.none);
     const [modalProduct, setModalProduct] = useState(null);
 
+    const subheroType = data.subheroTypes.faq;
+
     const closeModal = () => {
         setModalType(data.modalTypes.none);
         setModalProduct(null);
@@ -38,10 +40,10 @@ function MainPage({ data }) {
         setModalProduct(winProduct);
         setTimeout(() => {
             if (loseSpin) {
-                console.log("lose");
                 spinRefresh();
                 setModalType(data.modalTypes.lose);
             } else {
+                spinRefresh();
                 setModalType(data.modalTypes.win);
             }
         }, 6000);
@@ -55,7 +57,7 @@ function MainPage({ data }) {
                 showProduct={modalProduct}
             />
             <Wheel wheelSpinCallback={wheelSpinCallback} />
-            <Rating />
+            <Rating subheroType={subheroType} />
         </section>
     );
 }

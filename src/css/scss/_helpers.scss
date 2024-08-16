@@ -1,0 +1,27 @@
+/* ============================================================ HELPERS STYLE BLOCK ============================================================ */
+
+.mt-2 {
+    margin-top: 0.5rem !important;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem !important;
+}
+
+[class*="__container"] {
+    max-width: 76.5625rem;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    margin: 0 auto;
+}
+
+[class*="__container"] {
+    padding: 0 3.5625rem;
+}
+
+
+@media screen and (max-width: 47.99875em) {
+    [class*="__container"] {
+        padding: 0 1rem;
+    }
+}

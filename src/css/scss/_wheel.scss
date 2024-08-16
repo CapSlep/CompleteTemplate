@@ -1,0 +1,171 @@
+/* ============================================================ WHEEL BLOCK ============================================================ */
+
+.wheel {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    -webkit-animation: 0.75s wheel cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+    animation: 0.75s wheel cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+.wheel__item {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    aspect-ratio: 1;
+    padding: 70px 75px;
+    background: url("./img/wheel/wheel-holder.png") no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.wheel__item:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    content: "";
+    background: url("./img/wheel/wheel-lamps-active.png") 50% 50% no-repeat;
+    background-size: 100% auto;
+    width: calc(100% - 10px);
+    height: calc(100% - 13px);
+    -webkit-animation: 2s lamps step-end infinite;
+    animation: 2s lamps step-end infinite;
+}
+
+.wheel__item-img {
+    width: 100%;
+    transition: all 5s cubic-bezier(0, 0, 0.1, 1);
+    user-select: none;
+}
+
+.wheel__item-selector {
+    position: absolute;
+    top: 18px;
+    left: 50%;
+    display: block;
+    width: 229px;
+    height: 295px;
+    background: url("./img/wheel/win-frame.png") no-repeat;
+    background-size: 100%;
+    z-index: 1;
+    transform: translateX(-50%);
+}
+
+.wheel__btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 230px;
+    height: 230px;
+    margin: auto;
+    z-index: 2;
+    background: url("./img/wheel/wheel-button-bg.png") 50% 50% no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    transition: none !important;
+}
+
+.wheel__btn:hover {
+    background-position: 0 -230px;
+    background-color: transparent !important;
+}
+
+.wheel__btn:active {
+    background-position: 0 -460px;
+}
+
+.wheel__btn:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: url("./img/wheel/wheel-button-glow.png") 50% 50% no-repeat;
+    background-size: 100%;
+    -webkit-animation: 1.4s glow ease-in-out infinite;
+    animation: 1.4s glow ease-in-out infinite;
+}
+
+.wheel__btn:disabled,
+.wheel__btn.disabled {
+    pointer-events: none;
+}
+
+.wheel__btn.disabled:after {
+    animation: none;
+}
+
+.wheel__description {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 5rem 20px 5rem;
+}
+
+@media (width < 768px) {
+    .wheel__item {
+        padding: 10% 11%;
+    }
+
+    .wheel__item-selector {
+        top: 10px;
+        width: calc(125 * 100vw / 375);
+        height: calc(155 * 100vw / 375);
+    }
+
+    .wheel__btn {
+        width: 150px;
+        height: 150px;
+    }
+
+    .wheel__btn:hover {
+        background-position: 0 -150px;
+    }
+
+    .wheel__btn:active {
+        background-position: 0 -300px;
+    }
+}
+
+@keyframes glow {
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes lamps {
+    33% {
+        transform: rotate(7deg);
+    }
+
+    66% {
+        transform: rotate(13deg);
+    }
+}
+
+@keyframes wheel {
+    0% {
+        -ms-transform: scale(0);
+        transform: scale(0);
+    }
+
+    75% {
+        -ms-transform: scale(1.02);
+        transform: scale(1.02);
+    }
+
+    100% {
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,115 @@
+/* ============================================================ BASE STYLE EDIT BLOCK ============================================================ */
+
+@font-face {
+    font-family: "Pan Display";
+    src: url("./fonts/pan_display_r.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Pan Display";
+    src: url("./fonts/pan_display_b.ttf");
+    font-weight: 700;
+}
+
+$font-stack: "Pan Display", sans-serif;
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+html,
+body {
+    height: 100%;
+    min-width: 320px;
+}
+
+body {
+    color: rgb(39, 37, 31);
+    line-height: 1.125rem;
+    font-family: $font-stack;
+    font-size: 0.875rem;
+}
+
+input,
+button,
+textarea {
+    font-family: $font-stack;
+    font-size: inherit;
+}
+
+button {
+    cursor: pointer;
+    color: inherit;
+    background-color: inherit;
+    outline-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+body.lock {
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+p {
+    font-family: $font-stack;
+    font-size: 18px;
+    margin: 0;
+}
+
+ol {
+    list-style-type: none;
+    text-align: center;
+    font-size: 16px;
+    padding-left: 0;
+}
